@@ -3,64 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Mi primera web con css</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <h1 class="blueblock">Esto es una página de ejemplo</h1>
     </header>
+    <!--Títulos y párrafos-->
     <main>
+        <!--Títulos y párrafos-->
         <section>
             <h2>Títulos y párrafos</h2>
-            <hr>
             <h3>Un título de tercer nivel</h3>
             <p>
-                Este es un párrafo de ejemplo. <abbr title="">HTML</abbr> permite estructurar el contenido de una página web
+                Este es un párrafo de ejemplo. <abbr title="HyperText Markup Language">HTML</abbr> permite estructurar el contenido de una página web
                 mediante diferentes etiquetas.
             </p>
             <p>
-                Podemos utilizar <span style="font-weight: bold;">texto importante</span>, <span style="font-style: italic;">texto enfatizado</span>, <span style="background-color: yellow;">texto resaltado</span> y <span style="font-size: smaller;">texto pequeño</span>.
+                Podemos utilizar <strong>texto importante</strong>, <em>texto enfatizado</em>, <mark>texto resaltado</mark> y <small>texto pequeño</small>.
             </p>
             <p>
-               También podemos utilizar <span style="text-decoration: line-through;">texto eliminado</span> <span style="text-decoration: underline;">texto añadido, texto inferior
-                y texto superior.
+                También podemos utilizar <del>texto eliminado</del> <ins>texto añadido</ins>, <sub>texto inferior</sub>
+                y <sup>texto superior</sup>.
             </p>
             <p>
-                El siguiente fragmento de código Javascript
-                console.log("Hola")
+                El siguiente fragmento de código Javascript <br>
+                <code>console.log("Hola")</code> <br>
                 sirve para mostrar un mensaje por la consola del navegador
             </p>
         </section>
         <section>
             <h2>Enlaces</h2>
-            <hr>
             <p>
-                Visita la página de Google.
+                Visita la <a href="https://www.google.com">página de Google</a>.
             </p>
             <p>
-               También podemos abrir un enlace en una pestaña nueva. 
+               También podemos abrir un enlace <a href="http://es.nothing.tech" target="_blank">en una pestaña nueva</a>. 
             </p>
         </section>
+        <!--Listas-->
         <section>
             <h2>Listas</h2>
-            <hr>
             <h3>Lista desordenada</h3>
+            <!-- Lista desordenada -->
             <ul>
                <li>HTML5</li>
                <li>CSS3</li>
                <li>JavaScript</li> 
             </ul>
+
             <h3>Lista ordenada</h3>
+            <!-- Lista ordenada -->
             <ol>
                 <li>Crear la estructura HTML</li>
                 <li>Añadir el contenido</li>
                 <li>Aplicar los estilos CSS</li>
             </ol>
             <h3>Lista de definiciones</h3>
+            <!--Lista de definiciones-->
             <dl>
                 <dt>HTML</dt>
                 <dd>Lenguaje utilizado para estructurar páginas web.</dd>
+                
                 <dt>CSS</dt>
                 <dd>Lenguaje utilizado para definir la presentación de una página web.</dd>
             </dl>
